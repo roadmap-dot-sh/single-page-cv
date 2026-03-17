@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single-Page CV</title>
+    <link rel="icon" type="image/x-icon" href="./images/cv-icon.png" />
+    <style>
+      :root {
+        --first-heading-color: #3ca450;
+        --second-heading-color: #277ac6;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        font-size: 14px;
+        line-height: 1.3;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #232323;
+        font-weight: 600;
+      }
+
+      body {
+        padding: 30px;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 0.6325rem 0;
+      }
+
+      p {
+        margin: 0.325rem 0;
+      }
+
+      section {
+        margin-bottom: 30px;
+      }
+
+      .heading-2 {
+        color: var(--first-heading-color);
+        margin-bottom: 14px;
+      }
+
+      .heading-3 {
+        color: var(--second-heading-color);
+      }
+
+      .experience-item {
+        margin-bottom: 20px;
+      }
+
+      .experience__list {
+        padding: 0 20px;
+        margin-bottom: 10px;
+      }
+
+      .experience__list li {
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      style="
+        width: 60%;
+        background-color: #232323;
+        height: 2px;
+        border-radius: 10px;
+      "></div>
+    <h1>Your Name</h1>
+
+    <!-- Information -->
+    <section class="information">
+      <h2 class="job-position heading-2">Junior Frontend Developer</h2>
+      <div>
+        <p>123 Your Street</p>
+        <p>Your City, ST 12345</p>
+        <p>(123) 456-7890</p>
+        <p>no_reply@example.com</p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills">
+      <h2 class="skills-heading heading-2">Skills</h2>
+      <p>
+        HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive Web
+        Design, Technical Writing, Presentation
+      </p>
+    </section>
+
+    <!-- Education -->
+    <section class="education">
+      <h2 class="education-heading heading-2">Education</h2>
+      <h3 class="heading-3">School Name, Location - Degree</h3>
+      <h4>Month 20xx to Month 20xx</h4>
+      <p>List of exciting things you did at university</p>
+    </section>
+
+    <!-- Experience -->
+    <section class="experience">
+      <h2 class="heading-2">Experience</h2>
+
+      <div class="experience-item">
+        <h3 class="heading-3">Company Name, Location - Job Title</h3>
+        <h4>Month 20xx to Month 20xx</h4>
+        <ul class="experience__list">
+          <li class="experience__list-items">List of achivements</li>
+          <li class="experience__list-items">List of achivements</li>
+          <li class="experience__list-items">List of achivements</li>
+        </ul>
+        <p>Skills: List of skills used or gained at this company</p>
+      </div>
+
+      <div class="experience-item">
+        <h3 class="heading-3">Company Name, Location - Job Title</h3>
+        <h4>Month 20xx to Month 20xx</h4>
+        <ul class="experience__list">
+          <li class="experience__list-items">List of achivements</li>
+          <li class="experience__list-items">List of achivements</li>
+          <li class="experience__list-items">List of achivements</li>
+        </ul>
+        <p>Skills: List of skills used or gained at this company</p>
+      </div>
+    </section>
+
+    <!-- Across the Internet -->
+    <section class="across-the-internet">
+      <h2 class="across-heading heading-2">Across the Internet</h2>
+      <p>Add you LinkedIn, GitHub profile links</p>
+    </section>
+  </body>
+</html>
